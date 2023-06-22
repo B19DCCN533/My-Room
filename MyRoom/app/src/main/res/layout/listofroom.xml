@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rrr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhấn giữ vào hình ngôi nhà hoặc tên phòng,tên để chọn các tính năng"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+
+    <ListView
+        android:id="@+id/lvdata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

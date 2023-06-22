@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SendMessageActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Nhập số điện thoại"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="nhập số điện thoại vào đây"
+        android:textSize="25dp"
+        android:id="@+id/nhapdienthoai"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập tin nhắn"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:minLines="6"
+        android:id="@+id/nhaptinnhan"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Bạn có thể sửa tin nhắn bằng cách ấn vào dòng tin nhắn"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Gửi tin nhắn"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="8dp"
+        android:backgroundTint="#03A9F4"
+        android:id="@+id/btnguitinnhan"/>
+
+
+</LinearLayout>
